@@ -1,0 +1,17 @@
+TASK:
+The included code stub will read an integer, n, from STDIN.
+Without using any string methods, try to print the following:
+123..n
+Note that ".." represents the consecutive values in between.
+
+sample input:
+3
+sample output:
+123
+
+#python 3 file
+
+n=int(input())
+for i in range(1,n+1):
+    print(i,end="")
+    
