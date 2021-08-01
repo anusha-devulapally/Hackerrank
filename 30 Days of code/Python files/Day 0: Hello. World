@@ -1,0 +1,20 @@
+Task
+To complete this challenge, you must save a line of input from stdin to a variable, print Hello, World. On a single line, 
+and finally print the value of your variable on a second line.
+
+sample Input:
+Welcome to 30 Days of Code!
+
+sample Output:
+Hello, World.
+Welcome to 30 Days of Code!
+
+#Code
+
+input_string = input()
+
+# Print a string literal saying "Hello, World." to stdout.
+print('Hello, World.')
+
+# TODO: Write a line of code here that prints the contents of input_string to stdout.
+print(input_string)
