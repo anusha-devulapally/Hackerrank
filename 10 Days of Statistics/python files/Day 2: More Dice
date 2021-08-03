@@ -1,0 +1,24 @@
+Task
+In a single toss of 2 fair (evenly-weighted) six-sided dice, find the probability that the values rolled by each die will be different and the two dice have a sum of 6.
+
+a) 1 / 9
+b) 1 / 6
+c) 2 / 3
+d) 5 / 6
+
+Sol:
+
+given 2 dice - A and B
+sample space of A dice: {1,2,3,4,5,6}
+sample space of B dice:{1,2,3,4,5,6}
+When 2 dices are rolled, we get 36 (6*6) possibilities.
+Out of which, 
+A B sum sum==6(distinct)
+1 5 6 true
+2 4 6 true
+4 3 6 true
+5 1 6 true
+
+so, out of 36 possibilites, only 4 possibilites are true.
+
+P(sum(2 dices distinct)==6)=4/36=1/9
