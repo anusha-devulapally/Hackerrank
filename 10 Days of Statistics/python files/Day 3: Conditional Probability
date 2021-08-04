@@ -1,0 +1,14 @@
+Task
+Suppose a family has 2 children, one of which is a boy. What is the probability that both children are boys?
+
+a) 1 / 3
+b) 1 / 2
+c) 2 / 3
+d) 1 / 9
+
+sol:
+if family has 2 children- there are 4 possibilites
+BB, GG, BG, GB
+in which 3 (BB,BG,GB) satisfies the condition that one of the child is a boy.
+In these 3 only 1 possibility for having both boys.
+so, probability is 1/3
